@@ -8,6 +8,8 @@ First, you need to install all dependencies using the following commands:
 
 ```bash
 npm install
+# then
+pip install -r requirements.txt
 ```
 
 In order to run the development server:
