@@ -33,3 +33,11 @@ npm run build
 # then
 npm start
 ```
+
+## Making Changes to App
+
+Please run the following command after installing additional dependencies using pip to update the dependencies folder:
+
+```bash
+pip-chill > requirements.txt
+```
