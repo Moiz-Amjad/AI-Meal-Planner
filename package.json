@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
@@ -16,12 +17,14 @@
     "next": "14.2.7",
     "openai": "^4.57.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.7",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
   },
   "description": "Worried about getting you nutrients in? Or maybe worried about your budgeting skills for meal prep? Our app makes a meal plan for you based on your goals whether you want to bulk, cut or just remain healthy, even if you just want to keep within a certain budget, we'll help you do that!",
   "main": "index.js",
