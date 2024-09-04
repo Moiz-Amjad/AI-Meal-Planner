@@ -1,5 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure all elements are styled consistently */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+/* Background gradient for the entire page */
+body {
+  background: linear-gradient(to bottom, #1f2937, #111827, #000); /* Dark gradient background */
+  color: white; /* White text color */
+  font-family: 'Rubik', sans-serif; /* Applying Rubik font globally */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(31, 41, 55, 0.9); /* Semi-transparent dark background */
+  z-index: 100;
+}
+
+/* Navigation links */
+nav a {
+  color: #fff;
+  margin-left: 2rem;
+  font-size: 1.125rem; /* 18px */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff6600; /* Hover color */
+}
+
+/* Main content area */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh; /* Ensures content is centered vertically */
+  padding-top: 150px; /* Ensures content is not hidden behind the fixed header */
+}
+
+/* Waitlist form container */
+.waitlist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #111827;
+  border-radius: 8px;
+  margin-top: 150px; /* Adjusted margin to move the form down */
+}
+
+/* Form fields */
+input {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  width: 100%;
+  color: white;
+  background-color: #1f2937; /* Dark background */
+}
+
+input::placeholder {
+  color: #a1a1a1;
+}
+
+/* Button with gradient background */
+button {
+  background: linear-gradient(90deg, #ff007a, #ff66a3);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ff33a3, #ff80bf);
+}
+
+/* Align the form nicely */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+

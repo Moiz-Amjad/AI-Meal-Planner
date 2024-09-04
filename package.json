@@ -19,9 +19,12 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "eslint": "^8",
     "eslint-config-next": "14.2.7",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "postcss": "^8.4.44",
+    "tailwindcss": "^3.4.10"
   },
   "description": "Worried about getting you nutrients in? Or maybe worried about your budgeting skills for meal prep? Our app makes a meal plan for you based on your goals whether you want to bulk, cut or just remain healthy, even if you just want to keep within a certain budget, we'll help you do that!",
   "main": "index.js",
