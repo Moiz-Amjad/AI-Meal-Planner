@@ -10,7 +10,7 @@ export default function Home() {
 
       <header className="flex items-center justify-between p-4 lg:p-6">
         <div className="flex items-center">
-          <img src="/leaf-icon.svg" alt="Logo" className="w-6 h-6 mr-2" />
+          <img src="/meal.png" alt="Logo" className="w-6 h-6 mr-2" width={40} height={40} marginRight={10}/>
           <span className="text-2xl font-bold text-white">Meal Planner</span>
         </div>
         <nav>
