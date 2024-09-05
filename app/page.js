@@ -64,9 +64,9 @@ export default function Home() {
                 {/* Logo */}
                 <div id="logo">
                   {/* Logo that is shown on the banner */}
-                  <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+                  <img src="images/meal.png" id="banner-logo" alt="Landing Page"/>
                   {/* The Logo that is shown on the sticky Navigation Bar */}
-                  <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                  <img src="images/meal.png" id="navigation-logo" alt="Landing Page"/>
                 </div>
                 {/* End of Logo */}
 
@@ -127,8 +127,9 @@ export default function Home() {
           <div id="banner-content" className="row clearfix">
             <div className="col-38">
               <div className="section-heading">
-                <h1>A FREE AND SIMPLE LANDING PAGE</h1>
-                <h2>Namari is a free landing page template you can use for your projects. It is free to use for your personal and commercial projects, enjoy!</h2>
+                <h1>WELCOME TO MEALPLANNER AI</h1>
+                <h2>
+                Hungry for inspiration but tired of thinking about what to eat? Let MealPlanner AI whip up the perfect meal ideas for you—no overthinking required. Click below to join the waitlist and let us handle your food dilemmas!</h2>
               </div>
 
               {/* Call to Action */}
@@ -261,9 +262,6 @@ export default function Home() {
                 </p>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-              <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet!
               </p>
               <a href="#" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" className="button video link-lightbox">
@@ -369,11 +367,6 @@ export default function Home() {
         <section id="pricing" className="secondary-color text-center scrollto clearfix ">
             <div className="row clearfix">
 
-                <div className="section-heading">
-                    <h3>YOUR CHOICE</h3>
-                    <h2 className="section-title">We have the right package for you</h2>
-                </div>
-
                 {/* Pricing Tables */}
                 <section id="pricing" className="secondary-color text-center scrollto clearfix">
                   <div className="row clearfix">
@@ -458,7 +451,7 @@ export default function Home() {
     {/* Footer */}
     <footer id="landing-footer" className="clearfix">
           <div className="row clearfix">
-            <p id="copyright" className="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p>
+            <p id="copyright" className="col-2">Made with love by <a href="">Rim</a></p>
             <ul className="col-2 social-icons">
               <li>
                 <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
