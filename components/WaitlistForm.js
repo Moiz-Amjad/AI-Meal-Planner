@@ -61,7 +61,7 @@ const WaitlistForm = () => {
         className="input-class"
         required
       />
-      <button type="submit" className="btn-class w-full">Join</button>
+      <button type="submit" className="buttonList">Join the Waitlist</button>
       {message && <p className="text-center mt-4">{message}</p>}
     </form>
   );
